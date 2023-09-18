@@ -188,8 +188,13 @@ for i in numeros:
 
 * Cuando no sabesmos la cantidad de veses que vamos a repetir algo.
 
-
-
+condicion=true
+while condicion:
+    print ("hola")
+    texto=input("ingresa tu nombre o salir para terminar elprograma: ")
+    if texto=="salir"
+    condicion=false
+    
 
 
 
@@ -199,3 +204,19 @@ for i in numeros:
 
 
 ## ESTRUCTURAS DE FLUJO
+
+## FUNCIONES 
+existen 2 tipos de funciones 
+## propias del leguaje 
+que ya bienen creadas e insertadas en python y etan listas para ser usadas
+## estructura de uso de una funcion
+tiene el nombre seguido del parentesis,
+dentro de la parentesis podremos pasarles datos que necesita la funcion para 
+ejecutarse 
+## esta es un funcion que nos sirve para mostrar por consola datos
+print("hola")
+## len nos devuelve un numero
+print(len([1,5,6,7,8]))
+### este es una funcion que se detiene a esperar que el usuario introdusca informacion
+### entre parentesis podremos escribir mensaje que indique que accion realizara el usuario
+input("ingresa ingresa")

@@ -32,3 +32,34 @@ else:
         print(f"NO APLICAS AL DESCUENTO. El monto de la compra es de {MONT_COMPRA} soles.")
 
         
+# crear un programa que me pida 5 veces un nombre y por cada vez que lo pida muestre la cantidad de veces
+# que ingreso el nombre
+nombre = input("Ingresa un nombre: ")
+
+conteo = 0
+
+for i in range(5):
+    if nombre == input("Ingresa un nombre: "):
+        conteo += 1
+
+
+print(f"El nombre '{nombre}' se ingresó {conteo} veces.")
+
+
+
+# crear un programa que pida un numero y lo evalue con el numero premiado si el numero ingresado es el 
+# premiado el programa finalizara si el numero ingresado es incorrecto el programa seguira pidiendo el numero premiado 
+# Número premiado (puedes cambiarlo según tus preferencias)
+numero_premiado = 42
+
+while True:
+
+    numero_ingresado = int(input("Ingresa un número: "))
+
+
+    if numero_ingresado == numero_premiado:
+        print("¡Felicidades! Has ingresado el número premiado.")
+        break  
+
+
+    print("Número incorrecto. Inténtalo de nuevo.")
