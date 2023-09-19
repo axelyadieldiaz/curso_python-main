@@ -214,9 +214,97 @@ tiene el nombre seguido del parentesis,
 dentro de la parentesis podremos pasarles datos que necesita la funcion para 
 ejecutarse 
 ## esta es un funcion que nos sirve para mostrar por consola datos
+```PYTHON
 print("hola")
 ## len nos devuelve un numero
 print(len([1,5,6,7,8]))
 ### este es una funcion que se detiene a esperar que el usuario introdusca informacion
 ### entre parentesis podremos escribir mensaje que indique que accion realizara el usuario
 input("ingresa ingresa")
+
+# esta funcion nos muestra el numero mayor de una lista
+lista=[45,12,78,3,24,50]
+numero_mayor=max([45,12,78,3,24,50])
+print(numero_mayor)
+
+# esta funcion nos muestra el numero menor de una lista 
+lista=[45,12,78,3,24,50]
+numero_menor=min([45,12,78,3,24,50])
+print(numero_menor)
+
+# funcion para convertir un string a un numero entero
+int('100') # ->> 100 ->> entero
+numero_string='100'
+print(type(numero_string))
+numero_entero=int(numero_string)
+print(type(numero_entero))
+
+# funcion para convertir un entero a un string 
+str(100) # ->> '100' ->> string
+
+# funcion de python que nos permite agregar elementos al final de una lista
+lista=[15,12,78]
+lista.pop()
+print(lista)
+
+#funcion de python que nos permite agregar elemtos en cualquier pocision de mi lista para eso se le tiene que pasar dos parametros, primero indicarle el indice y segundo el dato que se va a agregar
+lista_nombres=['jory','nadine','bichota']
+lista_nombres.insert(1,'satan')
+print(lista_nombres)
+
+# funcion de python que nos permite eliminar elementos de cualquier pocision de una lista, esta funcion recibe solo el elemento que deseamos eliminar 
+lista=[4,5,6,8,7]
+lista.remove(6)
+print(lista)
+
+# fucion que nos permite dividir en una lista de cadena
+cadena='hola como estan'
+lista=cadena.split()
+print(lista)
+url='www.golle.com/id=70133573'
+id=url.split('=').pop()
+print(id)
+
+### 2. funciones creadas
+# una funcion son mini programas tambien se le conoce como modulos o fragmentos de codigo de uso exclusivo
+# funciones propias
+# pasos para crear una funcion propia
+# 1. hacer uso de la palabra recervada def
+# 2. definir un nombre de  funcion que describa que tarea va a realizar
+# 3. establecer los parametros que resivira la funcion entre parenresis ().
+# 4. establecer que valor o dato va retornar mi funcion con la palabra reservada retrun
+#> observacion =>> tambien podemos hacer uso de la funcion print () para retornar un mensaje en nuestra funcion.
+def saludo():
+    print('hola este es un saludo')
+
+# como hacemos uso de la funcion??
+# nombre de la funcion y parentesis
+
+## funcion con parametros
+
+def mi_print(texto):
+    print(texto)
+
+# print('hola este es print de python')
+# mi_print('hola este es mi print creado')
+
+def suma(a,b):
+    total=a+b
+    return total
+
+mi_print(suma(45,12)) =>>>>>>> 57
+
+################################################
+#ejemplo
+# para que se usa esta funcion
+# para mostrar el valor maximo de una lista
+lista=[12,4,45,78,3,1]
+max(lista) # ===>>> 78
+
+def mi_max(lista):
+    numero_mayor=lista[0]
+    for numero in lista:
+        if numero > numero_mayor:
+            numero_mayor=numero
+    return numero_mayor
+mi_print(mi_max(lista))
