@@ -149,3 +149,10 @@ frecuencia = contar_palabras(cadena)
 # Mostrar las palabras y sus frecuencias
 for palabra, frecuencia in frecuencia.items():
     print(f'Palabra: "{palabra}", Frecuencia: {frecuencia}')
+
+
+# crear un enterno virtual con venv de python e instalar
+# el framewrok dejando para la creacion de app web
+# crear entorno
+# activar entorno
+# instalar el paquete
