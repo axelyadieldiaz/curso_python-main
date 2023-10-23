@@ -43,3 +43,31 @@ print(llamandonadine.familia)
 print(llamandonadine.llmar('ollanta'))
 
  ```
+
+ ## tarea
+ #### 1. crear una lista con con 10 objetos que contengan los datos de las tiendas comerciales
+ > ejemplo:
+ >
+ 
+```python
+ tiendas=[
+    {
+        "ruc":245678324,
+        "nombre":"el pichilon",
+        "categoria":["bodega"]
+        "horario_atencion":{
+            "dia":7am-12pm,
+            "tarde":2pm-8pm
+        }
+        "gerente":"manuela"
+    }
+ ]
+ ```
+ #### observacion: 'las categorias sera 4: abarrotes, farmacia, bodega,restaurat'
+ #### observacion 'los gerentes solo podran ser los siguientes : edwin, china, crhistian, nadine'
+
+ ## realizar los siguientes ejercicios
+ #### crear una clase para tiendas que tenga los siguientes metodos o casos de uso.
+ 1. crear un metodo que me filtre las tiendas que tiene cada gerente
+ 2. crear un metodo que me muestre los negocios que tienen mas de dos categorias 
+3. crear un metodo que me muestre solo el nombre y ruc de las tiendas

@@ -178,3 +178,4 @@ Widget_uno.grid(row=3, column=0, padx=5,pady=5, rowspan=10, columnspan=2)
 Widget_uno.config(width=300, height=200)
 Widget_uno.config(background='sky blue')
 ventana.mainloop()
+
