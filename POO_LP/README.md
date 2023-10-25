@@ -56,8 +56,8 @@ print(llamandonadine.llmar('ollanta'))
         "nombre":"el pichilon",
         "categoria":["bodega"]
         "horario_atencion":{
-            "dia":7am-12pm,
-            "tarde":2pm-8pm
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
         }
         "gerente":"manuela"
     }
