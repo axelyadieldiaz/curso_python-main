@@ -4,7 +4,7 @@ COLOR_FONDO_SECUNDARIO="#b3daff"
 COLOR_BOTON="#52c9dc"
 TITULO_APP="App de Contactos por juanito"
 date=datetime.datetime.now()
-HORA_ACTUAL=f"{date.day}-{date.month}-{date.year}, hora: {date.hour}:{date.minute}"
+HORA_ACTUAL=f"fecha: {date.day}-{date.month}-{date.year}, hora: {date.hour}:{date.minute}"
 
 def centrar_ventana(ventana,ancho_ventana,largo_ventana):
     pantalla_ancho=ventana.winfo_screenwidth()
